@@ -1,0 +1,6 @@
+arch: ppc64le
+dist: bionic
+
+script:
+  - echo TRAVIS_CPU_ARCH
+  - arch
